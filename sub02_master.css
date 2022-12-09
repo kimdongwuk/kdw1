@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+*{  
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.section{
+    overflow: hidden;
+}
+.background{
+    background-size: cover;
+    background-color: black;
+    height: 100%;
+}
+.topmenu{
+    height: 155px;
+    display: block;
+    position: relative;
+    width: 100%;
+}
+.McQueenlogo{
+    top: 27px;
+    position: relative;
+    left: 410px;
+    width: 318.48px;
+    height: 90px;
+}
+.line{
+    position: absolute;
+    display: block;
+    width: 100%;
+    bottom: 0;
+}
+.hr-solid {
+    position: relative;
+    bottom: 0;
+    left: 52px;
+    border : 0px;
+    border-top: 3px solid white;
+}
+.hr-dashed {
+    position: relative;
+    left: 90px;
+    bottom: 10px;
+    border : 0px;
+    border-top: 2.5px dashed white;
+}
+.xx{
+    position: absolute;
+    top: 100.6px;
+    left: 18.4px;
+    width: 62.78px;
+    height: 49.38px;
+}
+.menu{
+    width: 655px;
+    height: 33px;
+    left: 853px;
+    top: 54px;
+    position: absolute;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    justify-content: space-between;
+    color: white;
+}
+.tit{
+    position: relative;
+    margin-top: 58.2px;
+    text-align: center;
+}
+.cut1{
+    margin-top: 58.4px;
+    width: 100%;
+    height: 109.44px;
+    position: relative;
+}
+.hr-solid1_1{
+    top: 0px;
+    border : 0px;
+    border-top: 3px solid white;
+    position: relative;
+
+}
+.hr-dashed1_1{
+    top: 12px;
+    border : 0px;
+    border-top: 3px dashed white;
+    position: relative;
+}
+.hr-solid1_2{
+    top: 112px;
+    border : 0px;
+    border-bottom: 4px solid white;
+    position: relative;
+}
+.hr-dashed1_2{
+    top: 100px;
+    border : 0px;
+    border-bottom: 3px dashed white;
+    position: relative;
+}
+.img{
+    margin-top: 15px;
+    position: relative;
+    justify-content: center;
+}
+.imgs{
+    margin-top: 14px;
+    position: relative;
+    justify-content: center;
+}
+.imgt{
+    margin-top: 16px;
+    position: relative;
+
+    justify-content: center;
+    overflow: hidden;
+    height: 538.18px;
+}
+.wplay1{
+    position: absolute;
+    right: 35px;
+    top: 50px;
+}
+.wplay2{
+    position: absolute;
+    right: 35px;
+    top: 50px;
+}
+.bplay{
+    position: absolute;
+    right: 35px;
+    top: 80px;
+}
+.wplay3{
+    position: absolute;
+    right: 35px;
+    top: 400px;
+}
+.wplay1 :hover{
+transition: 1s;
+filter: invert(1);
+}
+.wplay2 :hover{
+transition: 1s;
+filter: invert(1);
+}
+.wplay3 :hover{
+transition: 1s;
+filter: invert(1);
+}
+.bplay :hover{
+transition: 1s;
+filter: invert(1);
+}
+.show1{
+    margin-top: 20px;
+    text-align: left;
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 60px;
+    color: white;
+    width: 200%;
+}
+.wrap{
+    width: 1100px;
+    position: relative;
+    margin: 0 auto;
+    height: 100%;
+}
+.stit {
+    margin-top: 43.1px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+.smtit{
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+.tx{
+
+    margin-top: 43.1px;
+    font-weight: lighter;
+    font-size: 22px;
+    color: white;
+    text-align: left;
+    line-height: 40px;
+}
+.cut2{
+    margin-top: 73.4px;
+    width: 100%;
+    height: 109.44px;
+    position: relative;
+}
+.hr-solid2_1{
+    top: 0px;
+    border : 0px;
+    border-top: 3px solid white;
+    position: relative;
+}
+.hr-dashed2_1{
+    top: 12px;
+    border : 0px;
+    border-top: 3px dashed white;
+    position: relative;
+}
+.hr-solid2_2{
+    top: 112px;
+    border : 0px;
+    border-bottom: 4px solid white;
+    position: relative;
+}
+.hr-dashed2_2{
+    top: 100px;
+    border : 0px;
+    border-bottom: 3px dashed white;
+    position: relative;
+}
+.paper{
+    background-image: url("sub02_img/paper.png");
+    width: 100%;
+    height: 192px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 47.8px;
+    align-items: center;
+}
+.cutw{
+    margin-top: 73.4px;
+    width: 100%;
+    height: 109.44px;
+    position: relative;
+}
+.hr-solidw2_1{
+    top: 0px;
+    border : 0px;
+    border-top: 3px solid black;
+    position: relative;
+
+}
+.hr-dashedw2_1{
+    top: 12px;
+    border : 0px;
+    border-top: 3px dashed black;
+    position: relative;
+}
+.hr-solidw2_2{
+    top: 112px;
+    border : 0px;
+    border-bottom: 4px solid black;
+    position: relative;
+}
+.hr-dashedw2_2{
+    top: 100px;
+    border : 0px;
+    border-bottom: 3px dashed black;
+    position: relative;
+}
+.showw1{
+    margin-top: 20px;
+    text-align: left;
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 60px;
+    color: black;
+    width: 200%;
+}
+.stitw {
+    margin-top: 43.1px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+.smtitw{
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+}
+.txw{
+    margin-top: 60.1px;
+    font-size: 22px;
+    color: black;
+    text-align: left;
+    line-height: 30px;
+    font-weight: 500;
+}
+.footer{
+    position: relative;
+    margin-top: 150.3px;
+}
+.hr-solidw {
+    position: relative;
+    bottom: 0;
+    left: 52px;
+    border : 0px;
+    border-top: 3px solid black;
+}
+.hr-dashedw {
+    position: relative;
+    left: 90px;
+    bottom: 10px;
+    border : 0px;
+    border-top: 2.5px dashed black;
+}.xxw{
+    position: absolute;
+    top: -47px;
+    left: 18.4px;
+    width: 62.78px;
+    height: 49.38px;
+}
+.bottom{
+    position: relative;
+    background-image: url(sub02_img/bottom.png);
+    width: 1920px;
+    height: 130px;
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 58.4px;
+}
+a:link{
+    color: white;
+}
+a:visited{color: white;}
+a:active{color: white;}
+a:hover{color: red;}

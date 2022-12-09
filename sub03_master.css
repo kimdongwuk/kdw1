@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.section{
+    overflow: hidden;
+}
+
+a:link{color: black;}
+a:visited{color: black;}
+a:active{color: black;}
+a:hover{color: red;}
+
+.topmenu{
+    height: 155px;
+    display: block;
+    position: relative;
+    width: 100%;
+}
+.McQueenlogo{
+    top: 27px;
+    position: relative;
+    left: 410px;
+    width: 318.48px;
+    height: 90px;
+}
+.line{
+    position: absolute;
+    display: block;
+    width: 100%;
+    bottom: 0;
+}
+.hr-solid {
+    position: relative;
+    bottom: 0;
+    left: 52px;
+    border : 0px;
+    border-top: 3px solid black;
+}
+.hr-dashed {
+    position: relative;
+    left: 90px;
+    bottom: 10px;
+    border : 0px;
+    border-top: 2.5px dashed black;
+}
+.xx{
+    position: absolute;
+    top: 100.6px;
+    left: 18.4px;
+    width: 62.78px;
+    height: 49.38px;
+}
+.menu{
+    width: 655px;
+    height: 33px;
+    left: 853px;
+    top: 54px;
+    position: absolute;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    justify-content: space-between;
+}
+.wrap{
+    width: 1100px;
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+.tit{
+    position: relative;
+    margin-top: 36px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    font-size: 45px;
+}
+.img1{
+    margin-top: 36px;
+    text-align: center;
+    position: relative;
+}
+.tx{
+    margin-top: 60px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 500;
+}
+.txb{
+    font-size: 35px;
+    text-align: center;
+    font-weight: 600;
+}
+.txm{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 500;
+}
+.time{
+    position: relative;
+    display: flex;
+    height: 81px;
+}
+.tit1{
+    position: relative;
+    margin-top: 154px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: left;
+    font-size: 80px;
+}
+.tit2{
+    position: relative;
+    margin-left: 20px;
+    margin-top: 195px;
+    text-align: left;
+    font-size: 31px;
+    font-weight: 500;
+}
+.hr-solidt {
+    position: relative;
+    bottom: 0;
+    border : 0px;
+    border-top: 3px solid black;
+    margin-top: 168px;
+}
+  .ptx{
+    position: relative;
+    margin-top: 68.5px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+}
+.footer{
+    position: relative;
+    margin-top: 150.3px;
+}
+.hr-solidw {
+    position: relative;
+    bottom: 0;
+    left: 52px;
+    border : 0px;
+    border-top: 3px solid black;
+}
+.hr-dashedw {
+    position: relative;
+    left: 90px;
+    bottom: 10px;
+    border : 0px;
+    border-top: 2.5px dashed black;
+}.xxw{
+    position: absolute;
+    top: -47px;
+    left: 18.4px;
+    width: 62.78px;
+    height: 49.38px;
+}
+.bottom{
+    position: relative;
+    background-image: url(sub02_img/bottom.png);
+    width: 1920px;
+    height: 130px;
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 58.4px;
+}
